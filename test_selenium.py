@@ -14,3 +14,4 @@ soup = BeautifulSoup(html, 'html.parser')
 ll = [x for x in soup.text.split(' ') if len(x) > 0]
 for elem in ll:
     print(elem)
+    
