@@ -36,4 +36,7 @@ i = 1
 for elem in ll:
     print(i)
     print(elem)
+    if i > 2:
+        print(i)
+        print("3倍 => " + i * 3)
     i+=1
